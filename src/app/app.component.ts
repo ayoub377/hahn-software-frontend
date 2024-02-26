@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {RouterLink, RouterLinkActive, RouterOutlet} from '@angular/router';
+import {NavigationEnd, Router, RouterLink, RouterLinkActive, RouterOutlet} from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -9,5 +9,5 @@ import {RouterLink, RouterLinkActive, RouterOutlet} from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'hahnCargo-simulation';
+
 }
